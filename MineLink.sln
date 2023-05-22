@@ -9,12 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EB01D959-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{14B9314A-836E-4FE8-A86C-708CEF387D8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLink.Core", "src\MineLink.Core\MineLink.Core.csproj", "{0BD57006-6FE0-4064-A46A-F6E03BCA9945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MineLink.Core", "src\MineLink.Core\MineLink.Core.csproj", "{0BD57006-6FE0-4064-A46A-F6E03BCA9945}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{0B550DD6-B001-4B2D-9400-E9CB8BD1A98C}"
 	ProjectSection(SolutionItems) = preProject
 		src\js\index.html = src\js\index.html
-		src\js\recorder.js = src\js\recorder.js
+		src\js\mine-link.js = src\js\mine-link.js
 	EndProjectSection
 EndProject
 Global
