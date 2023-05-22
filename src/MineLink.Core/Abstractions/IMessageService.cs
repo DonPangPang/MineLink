@@ -2,5 +2,5 @@
 
 public interface IMessageService
 {
-    void Send<T>(T message);
+    void SendMessage<T>(T message);
 }
