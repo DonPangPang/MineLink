@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./mine-link.js"></script>
+</head>
+
+<body>
+    <button id="record">record</button>
+</body>
+
+</html>
+
+<script>
+    Record.Init();
+    let btn = document.getElementById('record');
+    //btn.onclick = Record.OnRecord;
+
+    btn.ontouchstart = Record.OnRecord;
+    btn.ontouchend = Record.OnRecord;
+</script>

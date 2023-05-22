@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64D2AE6E-9B39-440F-9DC9-C168BDE80DF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EB01D959-E7AC-431F-875E-F9ED5AB26762}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{14B9314A-836E-4FE8-A86C-708CEF387D8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLink.Core", "src\MineLink.Core\MineLink.Core.csproj", "{0BD57006-6FE0-4064-A46A-F6E03BCA9945}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{0B550DD6-B001-4B2D-9400-E9CB8BD1A98C}"
+	ProjectSection(SolutionItems) = preProject
+		src\js\index.html = src\js\index.html
+		src\js\recorder.js = src\js\recorder.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD57006-6FE0-4064-A46A-F6E03BCA9945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD57006-6FE0-4064-A46A-F6E03BCA9945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD57006-6FE0-4064-A46A-F6E03BCA9945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD57006-6FE0-4064-A46A-F6E03BCA9945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BD57006-6FE0-4064-A46A-F6E03BCA9945} = {64D2AE6E-9B39-440F-9DC9-C168BDE80DF0}
+		{0B550DD6-B001-4B2D-9400-E9CB8BD1A98C} = {64D2AE6E-9B39-440F-9DC9-C168BDE80DF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1356629-9737-4F88-ABD5-6330B9815B05}
+	EndGlobalSection
+EndGlobal
