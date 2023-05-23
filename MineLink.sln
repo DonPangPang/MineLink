@@ -17,11 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{0B550DD6-B001-
 		src\js\mine-link.js = src\js\mine-link.js
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLink.Core.Tests", "test\MineLink.Core.Tests\MineLink.Core.Tests.csproj", "{2D57709D-2F51-410E-B693-96C3237B6AED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MineLink.Core.Tests", "test\MineLink.Core.Tests\MineLink.Core.Tests.csproj", "{2D57709D-2F51-410E-B693-96C3237B6AED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLink.SignalR", "src\MineLink.SignalR\MineLink.SignalR.csproj", "{26FEDEA8-19BD-4C8D-8971-F67A997E508F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MineLink.Samples", "samples\MineLink.Samples\MineLink.Samples.csproj", "{D6E0FC6C-0CF7-439E-A3E1-380585A31698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLink.Samples", "samples\MineLink.Samples\MineLink.Samples.csproj", "{D6E0FC6C-0CF7-439E-A3E1-380585A31698}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLink.WebApi", "src\MineLink.WebApi\MineLink.WebApi.csproj", "{16433479-8D40-47C3-882E-5CFCDC6267F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +37,14 @@ Global
 		{2D57709D-2F51-410E-B693-96C3237B6AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D57709D-2F51-410E-B693-96C3237B6AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D57709D-2F51-410E-B693-96C3237B6AED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26FEDEA8-19BD-4C8D-8971-F67A997E508F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26FEDEA8-19BD-4C8D-8971-F67A997E508F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26FEDEA8-19BD-4C8D-8971-F67A997E508F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26FEDEA8-19BD-4C8D-8971-F67A997E508F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6E0FC6C-0CF7-439E-A3E1-380585A31698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6E0FC6C-0CF7-439E-A3E1-380585A31698}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6E0FC6C-0CF7-439E-A3E1-380585A31698}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6E0FC6C-0CF7-439E-A3E1-380585A31698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16433479-8D40-47C3-882E-5CFCDC6267F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16433479-8D40-47C3-882E-5CFCDC6267F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16433479-8D40-47C3-882E-5CFCDC6267F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16433479-8D40-47C3-882E-5CFCDC6267F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,8 +53,8 @@ Global
 		{0BD57006-6FE0-4064-A46A-F6E03BCA9945} = {64D2AE6E-9B39-440F-9DC9-C168BDE80DF0}
 		{0B550DD6-B001-4B2D-9400-E9CB8BD1A98C} = {64D2AE6E-9B39-440F-9DC9-C168BDE80DF0}
 		{2D57709D-2F51-410E-B693-96C3237B6AED} = {EB01D959-E7AC-431F-875E-F9ED5AB26762}
-		{26FEDEA8-19BD-4C8D-8971-F67A997E508F} = {64D2AE6E-9B39-440F-9DC9-C168BDE80DF0}
 		{D6E0FC6C-0CF7-439E-A3E1-380585A31698} = {14B9314A-836E-4FE8-A86C-708CEF387D8F}
+		{16433479-8D40-47C3-882E-5CFCDC6267F3} = {64D2AE6E-9B39-440F-9DC9-C168BDE80DF0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1356629-9737-4F88-ABD5-6330B9815B05}
