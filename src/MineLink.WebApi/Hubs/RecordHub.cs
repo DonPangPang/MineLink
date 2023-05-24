@@ -4,7 +4,7 @@ namespace MineLink.WebApi.Hubs;
 
 public class RecordHub : Hub
 {
-    public async Task SendMessage<T>(string user, T message)
+    public async Task SendMessage(string user, string message)
     {
         await Clients.All.SendAsync("ReceiveMessage", user, message);
     }
